@@ -1,5 +1,5 @@
 const gcd = (a: number, b: number) => {
-    if (b === 0) {
+    if (!b) {
         return a
     }
 
