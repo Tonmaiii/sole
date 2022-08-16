@@ -2,6 +2,7 @@
     import InputEquations from './components/InputEquations.svelte'
     import Results from './components/Results.svelte'
     import ResultsSubstitution from './components/ResultsSubstitution.svelte'
+    import ResultsElimination from './components/ResultsElimination.svelte'
     import Matrix from './util/matrix'
     import Scalar from './util/scalar'
 
@@ -17,6 +18,7 @@
     <InputEquations bind:A bind:v />
     <Results {A} {v} />
     <ResultsSubstitution {A} {v} />
+    <ResultsElimination {A} {v} />
 </main>
 
 <style>
