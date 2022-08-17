@@ -21,7 +21,7 @@
     <strong>Elimination</strong><br />
     <blue>{a}x + {b}y = {c} - ①</blue><br />
     <pink>{d}x + {e}y = {f} - ②</pink><br />
-    <blue>rearrange ①</blue><br />
+    <lime>multiply <blue>①</blue> by {Scalar.neg(Scalar.div(d, a))}<br />
     <blue>{Scalar.neg(d)}x + {Scalar.neg(Scalar.div(Scalar.mul(b, d), a))}y = {Scalar.neg(Scalar.div(Scalar.mul(c, d), a))} - ①′</blue><br />
     <blue>①′</blue> + <pink>②</pink><br />
     <blue>{Scalar.neg(d)}x + {Scalar.neg(Scalar.div(Scalar.mul(b, d), a))}y</blue> + <pink>{d}x + {e}y</pink> = <blue>{Scalar.neg(Scalar.div(Scalar.mul(c, d), a))}</blue> + <pink>{f}</pink><br />
