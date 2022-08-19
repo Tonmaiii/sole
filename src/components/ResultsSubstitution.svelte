@@ -32,10 +32,6 @@
         e,
         Scalar.mul(Scalar.div(b, a), d)
     )}y = {f}<br />
-    {Scalar.mul(Scalar.div(c, a), d)} + {Scalar.sub(
-        e,
-        Scalar.mul(Scalar.div(b, a), d)
-    )}y = {f}<br />
     {Scalar.sub(e, Scalar.mul(Scalar.div(b, a), d))}y = {Scalar.sub(
         f,
         Scalar.mul(Scalar.div(c, a), d)
